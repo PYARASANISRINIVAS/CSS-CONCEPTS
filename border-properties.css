@@ -1,0 +1,22 @@
+#h1{
+
+    border-style:solid;/*dotted,dashed,double,groove*/
+    border-style:solid dotted; /* top-down    right-left*/
+    border-style:solid dotted dashed double; /*top right bottom left  (clock wise)*/
+    
+    border-width:5px; /* All */
+    border-width:10px 50px;  /*top-bottom  right-left*/
+    border-width:5px 10px 50px 100px; /*top right bottom left*/
+
+    border-color:red;   
+
+    border-radius:30px;
+
+}
+/*
+ short hand:-
+    syntax::    border:width style color;
+*/
+#h1{
+    border:5px solid red;
+}
